@@ -1,4 +1,4 @@
-const { usuarioExiste, emailExiste } = require('../services/userService');
+const { usuarioExiste, emailExiste } = require('../../src/services/userService');
 
 const { testeDB } = require('../config/database');
 
